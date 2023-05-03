@@ -1,0 +1,62 @@
+body{
+    background-color:grey;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    font-family: 'Poppins', sans-serif;
+}
+input[type=submit]{
+    font-size: x-large;
+}
+input{
+    font-size: medium;
+    background-color: lightcyan;
+}
+input[type=text]{
+    font-size: medium;
+    background-color: lightcyan;
+    width: 19rem;
+    height: 2rem;
+}
+input[type=number]{
+    font-size: medium;
+    background-color: lightcyan;
+    width: 19rem;
+    height: 2rem;
+}
+
+/* =============================================================================== */
+
+.table{
+    width: 100%;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    border-collapse: collapse;
+    font-size: medium;
+}
+th,td{
+    padding: 10px;
+    /* text-align: center; */
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+thead{
+    background-color: rgb(12, 162, 243);
+    /* font-size: large; */
+    padding: 5rem;
+}
+/* thead>tr{
+    /* background-color: rgb(12, 162, 243); */
+    /* font-size: large; */
+/* } */ 
+tr:hover{
+    background-color: black;
+    color: grey;
+    transition: 0.5s;
+}
+
